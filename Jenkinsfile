@@ -4,7 +4,7 @@ pipeline{
     stages {
         stage("Stage 1"){
             steps{
-                sh "docker compose up"
+                sh "docker compose up -d"
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
