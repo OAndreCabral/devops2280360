@@ -16,6 +16,12 @@ pipeline{
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
+        stage("Stage 3"){
+            steps{
+                sh "npm run test:ci"
+                echo "Pipeline Usando Jenkinsfile"
+            }
+        }
     }
 }
 
