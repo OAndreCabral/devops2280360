@@ -10,7 +10,7 @@ pipeline{
         }
         stage("Stage 2"){
             steps{
-                sh npm i
+                sh "npm i"
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
