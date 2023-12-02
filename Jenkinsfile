@@ -3,13 +3,17 @@ pipeline{
 
     stages {
         stage("Stage 1"){
-            echo "Pipeline Usando Jenkinsfile"
+            steps{
+                echo "Pipeline Usando Jenkinsfile"
+            }
         }
     }
 
     stages {
         stage("Stage 2"){
-            echo "Pipeline Usando Jenkinsfile"
+            steps{
+                echo "Pipeline Usando Jenkinsfile"
+            }
         }
     }
 }
