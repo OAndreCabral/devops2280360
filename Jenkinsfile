@@ -7,9 +7,6 @@ pipeline{
                 echo "Pipeline Usando Jenkinsfile"
             }
         }
-    }
-
-    stages {
         stage("Stage 2"){
             steps{
                 echo "Pipeline Usando Jenkinsfile"
